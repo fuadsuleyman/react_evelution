@@ -3,10 +3,15 @@ import './Greet.css';
 
 const Greet = () => {
 
-return (<div>
-    <div className="expense-item">September 15 2021</div>
-    <h2 className="expense-item__description">Car Inshurance</h2>
-    <div className="expense-item__price">$294.47</div>
+const date = new Date(2021, 9, 15);
+const description = "Car Inshurance";
+const price = 294.67;
+
+return (
+<div className="expense-item">
+    <div >{date.toISOString()}</div>
+    <h2 className="expense-item__description">{description}</h2>
+    <div className="expense-item__price">${price}</div>
 </div>)
 
 
