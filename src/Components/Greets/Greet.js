@@ -1,7 +1,7 @@
 // import React from 'react';
 import './Greet.css';
 import GreetDate from './GreetDate';
-import Card from './Card';
+import Card from '../UI/Card';
 const Greet = (props) => {
 
 return (

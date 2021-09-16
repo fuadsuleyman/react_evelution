@@ -1,5 +1,5 @@
 import './GreetDate.css';
-import Card from './Card';
+import Card from '../UI/Card';
 
 const GreetDate = (props) => {
     const month = props.date.toLocaleString('en-US', {month: 'long'})

@@ -1,5 +1,5 @@
 import './App.css';
-import Greets from './Components/Greets';
+import Greets from './Components/Greets/Greets';
 
 function App() {
   const data = [

@@ -1,5 +1,5 @@
 import Greet from './Greet';
-import Card from './Card';
+import Card from '../UI/Card';
 import './Greets.css';
 
 
