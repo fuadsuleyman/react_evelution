@@ -1,6 +1,5 @@
 import './App.css';
-import Greet from './Components/Greet';
-import Welcome from './Components/Welcome';
+import Greets from './Components/Greets';
 
 function App() {
   const data = [
@@ -28,15 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1>Salam Aleykum Fuad</h1>
-      <Greet  title={data[0].title}
-              price={data[0].price}
-              date={data[0].date} />
-      <Greet  title={data[1].title}
-              price={data[1].price}
-              date={data[1].date} />
-      <Greet  title={data[2].title}
-              price={data[2].price}
-              date={data[2].date} />
+      <Greets myData = {data}/>
     </div>
   );
 }
