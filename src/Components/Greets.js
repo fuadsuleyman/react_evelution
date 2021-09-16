@@ -1,10 +1,12 @@
 import Greet from './Greet';
+import Card from './Card';
 import './Greets.css';
+
 
 const Greets = (props) => {
 
     return (
-        <div className="expenses">
+        <Card className="expenses">
             <Greet  title={props.myData[0].title}
                     price={props.myData[0].price}
                     date={props.myData[0].date} />
@@ -14,7 +16,7 @@ const Greets = (props) => {
             <Greet  title={props.myData[2].title}
                     price={props.myData[2].price}
                     date={props.myData[2].date} />
-        </div>
+        </Card>
     )
 }
 
